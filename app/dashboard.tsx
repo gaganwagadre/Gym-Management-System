@@ -54,7 +54,6 @@ export default function DashboardScreen() {
     }
   };
 
-  
   const onRefresh = async () => {
     setRefreshing(true);
     await loadStats();
