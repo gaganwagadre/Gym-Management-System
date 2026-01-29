@@ -53,7 +53,6 @@ export default function DashboardScreen() {
       console.error('Failed to load stats:', error);
     }
   };
-  
 
   const onRefresh = async () => {
     setRefreshing(true);
